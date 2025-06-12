@@ -1,16 +1,19 @@
 {
-  "dataStudio": {
-    "name": "Word Cloud Visualization",
-    "logoUrl": "",
-    "company": "Tu Nombre o Empresa",
-    "companyUrl": "",
-    "supportUrl": "",
-    "description": "Genera una nube de palabras usando D3.js",
-    "templates": {
-      "default": "index.html"
+  "name": "WordCloud Visualization",
+  "organization": "PatriciaAG",
+  "description": "Visualización tipo nube de palabras (word cloud) usando D3.js",
+  "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Wordle_Cloud_logo.svg/1200px-Wordle_Cloud_logo.svg.png",
+  "supportUrl": "https://github.com/patriciaag/wc-analitica",
+  "packageUrl": "https://patriciaag.github.io/wc-analitica/",
+  "components": [
+    {
+      "id": "wordcloudviz",
+      "name": "Word Cloud",
+      "description": "Visualización de palabras con tamaño según métrica",
+      "resource": {
+        "js": "https://patriciaag.github.io/wc-analitica/index.html"
+      },
+      "type": "VISUALIZATION"
     }
-  },
-  "components": {
-    "viz": "index.html"
-  }
+  ]
 }
