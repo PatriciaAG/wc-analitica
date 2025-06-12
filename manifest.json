@@ -1,0 +1,16 @@
+{
+  "dataStudio": {
+    "name": "Word Cloud Visualization",
+    "logoUrl": "",
+    "company": "Tu Nombre o Empresa",
+    "companyUrl": "",
+    "supportUrl": "",
+    "description": "Genera una nube de palabras usando D3.js",
+    "templates": {
+      "default": "index.html"
+    }
+  },
+  "components": {
+    "viz": "index.html"
+  }
+}
